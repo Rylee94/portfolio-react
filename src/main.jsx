@@ -7,8 +7,8 @@ import "./App.css";
 import App from './App.jsx';
 import About from './pages/AboutPage.jsx';
 import Contact from './pages/ContactPage.jsx';
-// import Portfolio from './pages/PortfolioPage.jsx';
-// import Resume from './pages/ResumePage.jsx';
+import Portfolio from './pages/PortfolioPage.jsx';
+import Resume from './pages/ResumePage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -30,14 +30,14 @@ const router = createBrowserRouter([
         path: '/Contact',
         element: <Contact />
       },
-      // {
-      //   path: '/Portfolio',
-      //   element: <Portfolio />
-      // },
-      // {
-      //   path: '/Resume',
-      //   element: <Resume />
-      // }
+      {
+        path: '/Portfolio',
+        element: <Portfolio />
+      },
+      {
+        path: '/Resume',
+        element: <Resume />
+      }
     ]
   }
 ])
