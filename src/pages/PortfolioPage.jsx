@@ -31,6 +31,18 @@ export default function Portfolio() {
                     ProjectURL={'https://rylees-notebook-738088f4224f.herokuapp.com/'}
                     gitHubURL={'https://github.com/Rylee94/express-note-taker'}
                 />
+                <PortfolioCard
+                    image={'public/assets/project5.png'}
+                    name={'Day Scheduler'}
+                    ProjectURL={'https://rylee94.github.io/day-scheduler/'}
+                    gitHubURL={'https://github.com/Rylee94/day-scheduler'}
+                />
+                <PortfolioCard
+                    image={'public/assets/project6.png'}
+                    name={'Weather App'}
+                    ProjectURL={'https://rylee94.github.io/weather-dashboard/'}
+                    gitHubURL={'https://github.com/Rylee94/weather-dashboard'}
+                />
             </div>
         </>
     );
