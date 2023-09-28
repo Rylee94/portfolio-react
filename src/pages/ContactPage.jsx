@@ -46,48 +46,52 @@ export default function ContactForm() {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <>
             <div>
-                <div>
-                    <h2 className="title">Contact</h2>
-                </div>
-                <label htmlFor="name">Name</label>
-                <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                    onBlur={handleBlur}
-                />
-                {nameError && <p>{nameError}</p>}
+                <h2 className="title">Contact</h2>
             </div>
-            <div>
-                <label htmlFor="email">Email</label>
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    onBlur={handleBlur}
-                />
-                {emailError && <p>{emailError}</p>}
-            </div>
-            <div>
-                <label htmlFor="message">Message</label>
-                <textarea
-                    id="message"
-                    name="message"
-                    value={message}
-                    onChange={(e) => setMessage(e.target.value)}
-                    onBlur={handleBlur}
-                ></textarea>
-                {messageError && <p>{messageError}</p>}
-            </div>
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <button type="submit">Submit</button>
-            </div>
-        </form>
+            <div className="form-container">
+                <form onSubmit={handleSubmit} className="form">
+                    <div>
+                        <label htmlFor="name">Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            value={name}
+                            onChange={(e) => setName(e.target.value)}
+                            onBlur={handleBlur}
+                        />
+                        {nameError && <p>{nameError}</p>}
+                    </div>
+                    <div>
+                        <label htmlFor="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            onBlur={handleBlur}
+                        />
+                        {emailError && <p>{emailError}</p>}
+                    </div>
+                    <div>
+                        <label htmlFor="message">Message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            value={message}
+                            onChange={(e) => setMessage(e.target.value)}
+                            onBlur={handleBlur}
+                        ></textarea>
+                        {messageError && <p>{messageError}</p>}
+                    </div>
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div >
+        </>
     );
 }

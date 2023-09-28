@@ -8,6 +8,7 @@
   font-family: Lexend, sans-serif;
 }
 
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -61,13 +62,14 @@ main {
   height: 100%;
   min-height: 100vh;
   padding: 40px;
+  align-items: c;
 }
 
 .footer {
   background-image: url(/public/assets/holographic.jpg);
   background-size: cover;
   background-position: center;
-  height: 15vh;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,8 +85,6 @@ main {
 
 }
 
-.title-container {}
-
 .title {
   color: #5A189A;
   font-size: 50px;
@@ -97,7 +97,63 @@ main {
   margin: 0 auto;
 }
 
-.about 
+.download {
+  color: #DEC8F1;
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid #5A189A;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: #5A189A;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 260px; /* Adjust the width as needed */
+}
+
+.download:hover {
+  background-color: #DEC8F1;
+  color: #5A189A;
+}
+
+.form-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.form input, textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form button {
+    align-self: center;
+
+  color: #DEC8F1;
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid #DEC8F1;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #5A189A;
+  display: block;
+  margin: 0 auto;
+}
+
+form button:hover {
+  background-color: #DEC8F1;
+  color: #5A189A;
+  border: 2px solid #5A189A;
+}
+
+.about-container {
+  max-width: 800px; /* Adjust the value as needed */
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
 /* #root {
   max-width: 1280px;
@@ -107,10 +163,13 @@ main {
 } */
 
 .logo {
-  height: 6em;
+  height: 8em;
+  width: 8em;
+  border-radius: 50%;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+  object-fit: cover; /* Add this line to prevent warping */
 }
 
 
