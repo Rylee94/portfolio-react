@@ -6,7 +6,7 @@ A react portflio to share my work and connect with others.
 
 ## Links
 
-- [Netlify URL](https://6514e62ad7e43d0008e6de4e--fantastic-marigold-042677.netlify.app/)
+- [Netlify URL](https://fantastic-marigold-042677.netlify.app/)
 - [Project Repo](https://github.com/Rylee94/portfolio-react)
 
 ## Screenshot
