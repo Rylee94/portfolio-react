@@ -155,13 +155,6 @@ form button:hover {
   padding: 0 20px;
 }
 
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-} */
-
 .logo {
   height: 8em;
   width: 8em;
@@ -172,35 +165,49 @@ form button:hover {
   object-fit: cover; /* Add this line to prevent warping */
 }
 
-
-
-
-/* .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 100px;
+  justify-content: center;
 }
 
 .card {
-  padding: 2em;
+    margin: 0px 20px;
 }
 
-.read-the-docs {
-  color: #888;
+.card-image {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.card-name {
+    font-size: 30px;
+    position: relative;
+    bottom: 50px;
+    width: 400px;
+    text-align: center;
+    transition: .5s ease;
+}
+
+.card-link {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-link .fa-github {
+  bottom: 10px;
+}
+/* .projectLinkGitHub {
+    position: relative;
+    bottom: 275px;
 } */
+
+.project-link-github {
+    width: 75px;
+    border-radius: 100px;
+
+}
+
+
