@@ -30,7 +30,7 @@
 }
 
 .nav-item {
-  font-size: 1.8rem;
+  font-size: 3vw;
 }
 
 .nav-link {
@@ -51,7 +51,7 @@
 display: flex;
 font-family: Sacramento, cursive;
 color: #5A189A;
-font-size: 3.5rem;
+font-size: 6vw;
 }
 
 main {
@@ -87,7 +87,7 @@ main {
 
 .title {
   color: #5A189A;
-  font-size: 50px;
+  font-size: 5vw;
   margin: 40px auto;
   padding: 20px;
   box-shadow: 0px 0px 10px rgba(113, 7, 94, 0.5);
