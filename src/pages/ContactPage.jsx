@@ -48,6 +48,9 @@ export default function ContactForm() {
     return (
         <form onSubmit={handleSubmit}>
             <div>
+                <div>
+                    <h2 className="title">Contact</h2>
+                </div>
                 <label htmlFor="name">Name</label>
                 <input
                     type="text"

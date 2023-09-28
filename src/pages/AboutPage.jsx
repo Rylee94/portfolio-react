@@ -1,10 +1,10 @@
 export default function AboutPage() {
     return (
         <>
-            <div>
-                <h1>About</h1>
+            <div className="title-container">
+                <h1 className="title">About</h1>
             </div>
-            <div>
+            <div className="about">
                 <img
                     src='/assets/IMG_4596.jpg'
                     alt="logo"

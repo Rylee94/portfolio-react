@@ -3,16 +3,16 @@ import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-
 
 export default function Footer() {
     return (
-        <footer className="footer-container">
+        <footer className="footer">
 
-            <a href="https://github.com/your-github-username">
-                <FontAwesomeIcon icon={faGithub} size="2x" />
+            <a href="https://github.com/your-github-username" className='icon'>
+                <FontAwesomeIcon icon={faGithub} size="3x" />
             </a>
-            <a href="https://www.linkedin.com/in/rylee-peterson-29572b24b/">
-                <FontAwesomeIcon icon={faLinkedin} size="2x" />
+            <a href="https://www.linkedin.com/in/rylee-peterson-29572b24b/" className='icon'>
+                <FontAwesomeIcon icon={faLinkedin} size="3x" />
             </a>
-            <a href="https://www.instagram.com/ryleepeterson/">
-                <FontAwesomeIcon icon={faInstagram} size="2x" />
+            <a href="https://www.instagram.com/ryleepeterson/" className='icon'>
+                <FontAwesomeIcon icon={faInstagram} size="3x" />
             </a>
         </footer>
     );

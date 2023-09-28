@@ -3,7 +3,7 @@ import PortfolioCard from '../components/Card'
 export default function Portfolio() {
     return (<>
         <div>
-            <h2>Portfolio</h2>
+            <h2 className='title'>Portfolio</h2>
         </div>
         <div>
             <PortfolioCard
